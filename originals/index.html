@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Karina Potter — Portfolio</title>
+  <style>
+    :root{--max-width:980px;--accent:#5b2b7a}
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;line-height:1.45;color:#111;margin:0;padding:0}
+    .site{max-width:var(--max-width);margin:0 auto;padding:24px}
+    header{display:flex;align-items:center;justify-content:space-between;gap:16px}
+    h1{margin:0;font-size:1.6rem;color:var(--accent)}
+    nav a{margin-left:12px;text-decoration:none;color:inherit}
+    .hero{display:grid;grid-template-columns:1fr;gap:18px;margin-top:18px}
+    .hero .bg{height:260px;background-size:cover;background-position:center;border-radius:6px}
+    section{margin-top:28px}
+    footer{margin-top:42px;padding-top:18px;border-top:1px solid #eee;color:#333}
+    img.responsive{max-width:100%;height:auto;border-radius:6px}
+    @media(min-width:780px){.hero{grid-template-columns:1fr 360px}}
+  </style>
+</head>
+<body>
+  <div class="site">
+    <header>
+      <div>
+        <h1>Karina's Portfolio</h1>
+        <div style="font-size:0.95rem;color:#444">Teacher — Environmental Science</div>
+      </div>
+      <nav aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="Year%209%20Program.html">Year 9 Program</a>
+        <a href="Year%2010%20Futures.html">Year 10</a>
+        <a href="Year%201112.html">Year 11/12</a>
+        <a href="My%20Story.html">My Story</a>
+      </nav>
+    </header>
+
+    <main>
+      <div class="hero">
+        <div>
+          <div class="bg" style="background-image:url('Home/ea4cb633e68df352442ef554be8d7e7e.jpg')" aria-hidden="true"></div>
+        </div>
+        <aside>
+          <h2 style="margin-top:0;color:var(--accent)">About me</h2>
+          <p>I'm a wife and mother of two (Essie, 17; Max, 20). I have taught Science for 11 years at The Friends' School, specialising in Environmental Science.</p>
+          <p>Passionate about wellbeing, gratitude, and positive impact. Enjoy bushwalking, skiing, sea kayaking and horticulture.</p>
+        </aside>
+      </div>
+
+      <section>
+        <h2>Programs</h2>
+        <ul>
+          <li><a href="Year%209%20Program.html">Year 9 Program — identity, relationships &amp; service</a></li>
+          <li><a href="Year%2010%20Futures.html">Year 10 — skills &amp; reflection</a></li>
+          <li><a href="Year%201112.html">Year 11/12 — pathways</a></li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Selected images</h2>
+        <img src="Home/3c4d7f48c0be81c57eee90ccd1aba1a5.jpg" alt="Portfolio image" class="responsive">
+      </section>
+    </main>
+
+    <footer>
+      <div>Get in touch: <a href="mailto:kpotter@friends.tas.edu.au">kpotter@friends.tas.edu.au</a></div>
+      <div style="margin-top:8px;font-size:0.9rem;color:#666">This is a simplified, cleaned copy of the original Home.html. The original file remains unchanged in the folder.</div>
+    </footer>
+  </div>
+</body>
+</html>
